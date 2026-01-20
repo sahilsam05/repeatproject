@@ -5,7 +5,7 @@ const bcrypt = require(`bcryptjs`);
 // const jwt = require(`jsonwebtoken`);
 // const fs = require(`fs`);
 
-const privateKey = fs.readFileSync(`./config/private.pem`, `utf8`);
+// const privateKey = fs.readFileSync(`./config/private.pem`, `utf8`);
 
 // REGISTER new user (Derek-style URL params)
 router.post(`/users/register/:name/:email/:password`, async (req, res) => {
